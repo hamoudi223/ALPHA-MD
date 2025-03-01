@@ -50,7 +50,7 @@ module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA5VUW
     ANTICALL: process.env.ANTICALL || 'yes',              
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
-        ? "postgresql://moudy_ggs4_user:1Tx91xlTiQ7jL2EMPUjVLa9xN4BfhafW@dpg-cusc0ca3esus73fltvs0-a.oregon-postgres.render.com/moudy_ggs4"
+        ? "postgresql://moudy_ggs4_user:1Tx91xlTiQ7jL2EMPUjVLa9xN4BfhafW@dpg-cusc0ca3esus73fltvs0-a.oregon-postgres.render.com/moudy_ggs4" : "postgresql://moudy_ggs4_user:1Tx91xlTiQ7jL2EMPUjVLa9xN4BfhafW@dpg-cusc0ca3esus73fltvs0-a.oregon-postgres.render.com/moudy_ggs4",
     /* new Sequelize({
      dialect: 'sqlite',
      storage: DATABASE_URL,
